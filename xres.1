@@ -1,0 +1,41 @@
+.TH XRES "1" "June 2009" "xres"
+.SH NAME
+xres \- print X display name and resolution
+.SH SYNOPSIS
+.B xres
+.br
+.B xres
+[\fI-adr\fR]
+.SH DESCRIPTION
+.PP
+Print display information (resolution by default).
+.TP
+\fB\-a\fR
+print ALL info, same as -dr
+.TP
+\fB\-d\fR
+print display name
+.TP
+\fB\-r\fR
+print display resolution
+.TP
+\fB\-\-help\fR
+display help and exit
+.SH EXAMPLES
+\fBxres\fR
+.br
+\fBxres \-r\fR
+.RS
+1280x1024
+.RE
+.TP
+\fBxres \-a\fR
+:0.1 1280x1024
+.TP
+\fBxres \-d\fR
+:0.1
+.SH AUTHOR
+Written by Peter Boström.
+.SH COPYRIGHT
+No rights reserved.
+
