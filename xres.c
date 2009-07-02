@@ -9,7 +9,7 @@ char *help = "\
 Usage:  xres \n\
 	xres [-adr]...\n\
 \n\
-Print display information (resolution by default).\n\
+Print display name and resolution.\n\
 \n\
   -a        print ALL info, same as -dr\n\
   -d        print display name\n\
